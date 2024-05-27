@@ -4,7 +4,7 @@ import dos2 from "../assets/projects/dos_2.png";
 import dos3 from "../assets/projects/dos_3.png";
 import dos4 from "../assets/projects/dos_4.png";
 import tres12 from "../assets/projects/tres_1_2.png";
-import tres3 from "../assets/projects/tres_3.png";
+import tres3 from "../assets/projects/tres_3.png"; 
 import tres4 from "../assets/projects/tres_4.png";
 import cinco1 from "../assets/projects/cinco_1.png";
 import copito from "../assets/projects/copitoStore.png";
