@@ -7,7 +7,7 @@ import tres12 from "../assets/projects/tres_1_2.png";
 import tres3 from "../assets/projects/tres_3.png";
 import tres4 from "../assets/projects/tres_4.png";
 import cinco1 from "../assets/projects/cinco_1.png";
-import cop from "../assets/projects/copitoStore.png";
+import copito from "../assets/projects/copitoStore.png";
 
 export const HERO_CONTENT = `I am a dedicated university student with a strong passion for full stack development, possessing hands-on experience in building web applications using modern technologies like Go, Node.js, React, SQL Server, and MySQL. Despite being in the midst of my academic journey, I have successfully contributed to various projects, applying my technical skills to create dynamic and scalable solutions. My goal is to establish a career in full stack development, leveraging my growing expertise to drive business growth and deliver exceptional user experiences.`;
 
@@ -113,7 +113,7 @@ export const PROJECTS = [
   },
   {
     title: "Copito Store",
-    image: cop,
+    image: copito,
     description:
       "Aplicación web que utiliza pasarela de pagos y monetización",
     technologies: ["HTML", "CSS", "Javascript"],
