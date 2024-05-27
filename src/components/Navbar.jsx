@@ -12,7 +12,7 @@ const Navbar = () => {
             <img className="mx-2 w-10" src={logo} alt="logo" />
         </motion.div>
         <div className="m-8 flex items-center justufy-center gap-8 text-2xl">
-            <motion.a whileHover={{ scale: 1.5}} target="_blank" href="www.linkedin.com/in/river-leonardo-belito-chahuayllo-bb678925b"><FaLinkedin/></motion.a>
+            <motion.a whileHover={{ scale: 1.5}} target="_blank" href="https://www.linkedin.com/in/river-leonardo-belito-chahuayllo-bb678925b"><FaLinkedin/></motion.a>
             <motion.a whileHover={{ scale: 1.5}} target="_blank" href="https://github.com/uncpleo"><FaGithub/></motion.a>
             <motion.a whileHover={{ scale: 1.5}} target="_blank" href="https://www.instagram.com/rlbelito/"><FaInstagram/></motion.a>
             <motion.a whileHover={{ scale: 1.5}} target="_blank" href="https://x.com/leo_chahu"><FaSquareXTwitter/></motion.a>
