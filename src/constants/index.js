@@ -109,6 +109,14 @@ export const PROJECTS = [
       "Desarrollar aplicaciones dinámicas con Javascript. Ejercicio 5.1, 5.2, 5.3, 5.4",
     technologies: ["HTML", "Visual Studio Code", "Javascript"],
     link: "https://uncpleo.github.io/Semana_05/ejercicio1.html"
+  },
+  {
+    title: "Copito Store",
+    image: cinco1,
+    description:
+      "Aplicación web que utiliza pasarela de pagos y monetización",
+    technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://uncpleo.github.io/copito-tienda/"
   }
 ];
 
