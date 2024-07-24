@@ -1,7 +1,49 @@
-import { motion } from "framer-motion"
-import { PROJECTS } from "../constants"
+import { motion } from "framer-motion";
+import { PROJECTS1, PROJECTS2, PROJECTS3, PROJECTS5, PROJECTS6, PROJECTS7, PROJECTS9, PROJECTS10, PROJECTS11, PROJECTS12, PROJECTS13 } from "../../constants";
+import { useParams } from 'react-router-dom';
 
 const Projects = () => {
+  const { id } = useParams();
+  let projects;
+
+  switch(id) {
+    case '1':
+      projects = PROJECTS1;
+      break;
+    case '2':
+      projects = PROJECTS2;
+      break;
+    case '3':
+      projects = PROJECTS3;
+      break;
+    case '5':
+      projects = PROJECTS5;
+      break;
+    case '6':
+      projects = PROJECTS6;
+      break;
+    case '7':
+      projects = PROJECTS7;
+      break;
+    case '9':
+      projects = PROJECTS9;
+      break;
+    case '10':
+      projects = PROJECTS10;
+      break;
+    case '11':
+      projects = PROJECTS11;
+      break;
+    case '12':
+      projects = PROJECTS12;
+      break;
+    case '13':
+      projects = PROJECTS13;
+      break;
+    default:
+      projects = [];
+  }
+
   return (
     <div className="border-b border-neutral-900 pb-4">
         <motion.h2 
@@ -10,7 +52,7 @@ const Projects = () => {
         transition={{duration:0.5}}
         className="my-20 text-center text-4xl">Projects</motion.h2>
         <div>
-            {PROJECTS.map((project, index) => (
+            {projects.map((project, index) => (
                 <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
                     <motion.div 
                     whileInView={{opacity:1, x:0}}
@@ -35,7 +77,8 @@ const Projects = () => {
             <div></div>
         </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;
+
