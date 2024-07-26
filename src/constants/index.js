@@ -278,7 +278,7 @@ export const PROJECTS13 = [
     image: s13_1,
     description:
       "Diseñar y desarrolle una API REST para realizar las operaciones CRUD desde y hacia una base de datos de 3 tablas departamento(id, name), provincia(id, name) y distrito(id, name).",
-    technologies: ["HTML", "CSS", "Javascript"],
+    technologies: ["HTML", "CSS", "JSA", "JPS", "MySQL", "SpringBoot"],
     link: "https://github.com/uncpleo/sem13_1.git"
   }
 ];
