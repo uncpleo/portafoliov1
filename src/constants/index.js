@@ -12,6 +12,8 @@ import copito from "../assets/projects/copitoStore.png";
 import s6_1 from "../assets/projects/sem6_1.png";
 import s6_2 from "../assets/projects/sem6_2.png";
 import s6_3 from "../assets/projects/sem6_3.png";
+import s9_1 from "../assets/projects/sem9_1.png";
+import s9_2 from "../assets/projects/sem9_2.png";
 import s10_1 from "../assets/projects/sem10_1.png";
 import s10_2 from "../assets/projects/sem10_2.png";
 import s10_3 from "../assets/projects/sem10_3.png";
@@ -187,12 +189,20 @@ export const PROJECTS7 = [
 
 export const PROJECTS9 = [
   {
-    title: "Copito Store",
-    image: copito,
+    title: "Evaluacion parcial Ejercicio 01",
+    image: s9_1,
     description:
       "EVALUACIÓN PARCIAL en la asignatura de Desarrollo de Aplicaciones Web, centrada en el desarrollo de una ruleta con HTML, CSS y JavaScript, y una aplicación en React con componentes anidados.",
     technologies: ["HTML", "CSS", "Javascript"],
-    link: "https://uncpleo.github.io/copito-tienda/"
+    link: "https://sem9-02.vercel.app"
+  },
+  {
+    title: "Evaluacion parcial Ejercicio 02",
+    image: s9_2,
+    description:
+      "EVALUACIÓN PARCIAL en la asignatura de Desarrollo de Aplicaciones Web, centrada en el desarrollo de una ruleta con HTML, CSS y JavaScript, y una aplicación en React con componentes anidados.",
+    technologies: ["HTML", "CSS", "Javascript"],
+    link: "https://sem9-02.vercel.app"
   }
 ];
 
