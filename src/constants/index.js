@@ -21,6 +21,7 @@ import s10_4 from "../assets/projects/sem10_4.png";
 import s11_1 from "../assets/projects/sem11_1.png";
 import s11_2 from "../assets/projects/sem11_2.png";
 import s12 from "../assets/projects/sem12.png";
+import s13_1 from "../assets/projects/sem13_1.png";
 
 import wek1 from "../assets/weeks/week1.jpg";
 import wek2 from "../assets/weeks/week2.png";
@@ -274,11 +275,11 @@ export const PROJECTS12 = [
 export const PROJECTS13 = [
   {
     title: "Semana 13: Evaluacion",
-    image: copito,
+    image: s13_1,
     description:
       "Diseñar y desarrolle una API REST para realizar las operaciones CRUD desde y hacia una base de datos de 3 tablas departamento(id, name), provincia(id, name) y distrito(id, name).",
     technologies: ["HTML", "CSS", "Javascript"],
-    link: "https://uncpleo.github.io/copito-tienda/"
+    link: "https://github.com/uncpleo/sem13_1.git"
   }
 ];
 
